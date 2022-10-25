@@ -88,8 +88,8 @@ namespace Demo_OneTuchExe
                     PGMS = new List<PGM>() { PGM };
                 }
             }
-            catch (Exception ex)
-            {                
+            catch (Exception)
+            {
             }
 
             try
@@ -465,7 +465,7 @@ namespace Demo_OneTuchExe
             if (pgm == null || string.IsNullOrWhiteSpace(pgm.ExeFileName) || string.IsNullOrWhiteSpace(pgm.TargetExeFileName) || string.IsNullOrWhiteSpace(pgm.Title)) return isRunning;
 
             string procName = Path.GetFileNameWithoutExtension(pgm.ExeFileName);
-            foreach (Process proc in Process.GetProcessesByName( procName, Environment.MachineName))
+            foreach (Process proc in Process.GetProcessesByName(procName, Environment.MachineName))
             {
                 if (proc.ProcessName != procName) continue;
 

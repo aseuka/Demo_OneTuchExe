@@ -44,7 +44,6 @@
             this.btnTargetFileOpen = new System.Windows.Forms.Button();
             this.btnTest = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,7 +92,6 @@
             this.tableLayoutPanel1.Controls.Add(this.btnTargetFileOpen, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.btnTest, 2, 4);
             this.tableLayoutPanel1.Controls.Add(this.btnRegister, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 1, 7);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -243,17 +241,6 @@
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.ForeColor = System.Drawing.Color.DarkRed;
-            this.label6.Location = new System.Drawing.Point(103, 464);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1010, 26);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "!!주의 :: *.jsexe  파일내 경로 지정 시 \\\\문자를 2개씩 붙여줘야 함.";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -289,7 +276,6 @@
         private System.Windows.Forms.Button btnTargetFileOpen;
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Button btnRegister;
-        private System.Windows.Forms.Label label6;
     }
 }
 
