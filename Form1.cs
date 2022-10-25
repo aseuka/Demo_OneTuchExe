@@ -474,7 +474,7 @@ namespace Demo_OneTuchExe
                     isRunning = true;
                     break;
                 }  
-
+                 
             }
             return isRunning;
         }
