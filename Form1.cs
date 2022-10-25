@@ -88,8 +88,8 @@ namespace Demo_OneTuchExe
                     PGMS = new List<PGM>() { PGM };
                 }
             }
-            catch (Exception)
-            {
+            catch (Exception ex)
+            {                
             }
 
             try
